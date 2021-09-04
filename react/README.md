@@ -9,7 +9,6 @@ import App from "./components/App";
 ReactDOM.render(<App />, document.getElementById("root"));
 ```
 ## App.js
-A jsx file, js is good
 ``` javascript
 import React from "react"; 
 
@@ -24,7 +23,6 @@ function App() {
 export default App;
 ```
 ## index.html
-Everything will insert to the div
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -37,16 +35,6 @@ Everything will insert to the div
     <script src="../src/index.js"></script> 
   </body>
 </html>
-```
-## index.js
-```javascript
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-ReactDOM.render(
-  <h1>Hello World!</h1>,
-  document.getElementById('root')
-);
 ```
 # Class-based Component
 ```javascript
