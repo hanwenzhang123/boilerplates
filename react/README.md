@@ -37,6 +37,7 @@ export default App;
 </html>
 ```
 # Class-based Component
+## App.js
 ```javascript
 import React, { Component } from "react";
 
