@@ -48,6 +48,7 @@ export const uiAction = uiSlice.actions;
 export default uiSlice;
 ```
 ## store/index.js - all in one file
+```javascript
 import { createSlice, configureStore } from '@reduxjs/toolkit';
 
 const initialCounterState = { counter: 0, showCounter: true };
@@ -96,4 +97,4 @@ export const counterActions = counterSlice.actions;
 export const authActions = authSlice.actions;
 
 export default store;
- 
+```
