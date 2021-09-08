@@ -31,19 +31,19 @@ export default store;
 ```
 ## store/ui-slice.js
 ```javascript
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
-const uiSlice = createSlice({ 
-  name: "ui",
+const uiSlice = createSlice({
+  name: 'ui',
   initialState: { cartIsVisible: false },
-  reducer: {
+  reducers: {
     toggle(state) {
       state.cartIsVisible = !state.cartIsVisible;
-    },
-  },
+    }
+  }
 });
 
-export const uiAction = uiSlice.actions;
+export const uiActions = uiSlice.actions;
 
 export default uiSlice;
 ```
